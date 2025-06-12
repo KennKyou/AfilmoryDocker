@@ -1,8 +1,8 @@
 {
-  "name": "Innei's Photo Gallery",
-  "title": "Innei's Photo Gallery",
+  "name": "Ken's Photo Gallery",
+  "title": "Ken's Photo Gallery",
   "description": "Capturing beautiful moments in life, documenting daily warmth and emotions through my lens.",
-  "url": "https://gallery.innei.in",
+  "url": "https://gallery.kyoudesu.com",
   "accentColor": "#fb7185",
   "ogImage": {
     "width": 1200,
@@ -10,8 +10,8 @@
   },
   "author": {
     "name": "Photo Gallery",
-    "url": "https://innei.in/",
-    "avatar": "//cdn.jsdelivr.net/gh/Innei/static@master/avatar.png"
+    "url": "https://kyoudesu.com/",
+    "avatar": "https://img.posome.tw/avatars/1744131225921-9610.webp"
   },
   "social": {
     "twitter": "@__oQuery"
