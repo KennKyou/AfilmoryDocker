@@ -1,11 +1,16 @@
-import { defineBuilderConfig } from '@afilmory/builder'
+import { defineBuilderConfig, githubRepoSyncPlugin } from '@afilmory/builder'
 
 export default defineBuilderConfig(() => ({
-  repo: {
+  plugins: [
     // Use remote repository as manifest and thumbnail cache
-    enable: false,
-    url: 'https://github.com/username/gallery-public',
-  },
+    githubRepoSyncPlugin({
+      repo: {
+        url: 'https://github.com/xxx/xxx',
+        token: '',
+        branch: 'main',
+      },
+    }),
+  ],
   storage: {
     // Storage configuration
     provider: 's3',
